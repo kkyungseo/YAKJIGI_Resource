@@ -120,6 +120,12 @@ body {
     text-align: left;
 }
 
+.inquiry_table tbody tr:hover td:nth-child(2) p {
+    color: #4553AD;
+    font-weight: 500;
+    transition: all 0.3s;
+}
+
 .inquiry_table tbody tr td:nth-child(2) p {
     overflow: hidden;
     text-overflow: ellipsis;
