@@ -1,0 +1,160 @@
+@import url('https://fonts.googleapis.com/css2?family=Noto+Sans+KR:wght@100..900&family=Noto+Sans:ital,wght@0,100..900;1,100..900&display=swap');
+
+body {
+    font-family: "Noto Sans KR", sans-serif;
+    padding-top: 80px;
+}
+
+.sub201_container {
+    width: 100%;
+    max-width: 1320px;
+    margin: 0 auto;
+}
+
+.Sub201 {
+    text-align: center;
+    padding: 40px 0px;
+}
+
+
+.sub201_container {
+    width: 100%;
+}
+
+.text_section .main_title {
+    font-size: 2rem;
+    margin-bottom: 10px;
+}
+
+.text_section .sub_title {
+    color: #666;
+}
+
+.search_section {
+    margin: 20px 0;
+}
+
+.search_bar {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+    margin-bottom: 20px;
+}
+
+.search_bar input {
+    padding: 10px;
+    width: 300px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+
+.search_bar button {
+    padding: 10px 15px;
+    border: none;
+    background-color: #333;
+    color: white;
+    cursor: pointer;
+    border-radius: 5px;
+}
+
+.search_letter_filter {
+    display: flex;
+    justify-content: center;
+    gap: 5px;
+}
+
+.search_letter_filter button {
+    padding: 5px 10px;
+    border: 1px solid #ccc;
+    background: white;
+    border-radius: 25px;
+    cursor: pointer;
+}
+
+.search_letter_filter button.active {
+    background-color: #333;
+    color: white;
+}
+
+.result_section {
+    margin-top: 30px;
+}
+
+.result_section .result_text {
+    margin-bottom: 20px;
+}
+
+.results_grid {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    /* 4개의 열 */
+    gap: 20px;
+}
+
+.result_item {
+    text-align: center;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+
+.result_item img {
+    width: 100px;
+    height: 100px;
+    object-fit: cover;
+    margin-bottom: 10px;
+}
+
+.pagination {
+    display: flex;
+    justify-content: center;
+    gap: 5px;
+    margin-top: 20px;
+}
+
+.pagination button {
+    padding: 5px 10px;
+    border: 1px solid #ccc;
+    background: white;
+    cursor: pointer;
+    border-radius: 5px;
+}
+
+/* paging_number */
+.paging_num_ul {
+    display: flex;
+    justify-content: center;
+    margin-top: 60px;
+}
+
+.paging_num_ul li {
+    width: 40px;
+    height: 40px;
+    line-height: 40px;
+    text-align: center;
+    border: 1px solid #ddd;
+    color: #555;
+    margin: 0 5px;
+    cursor: pointer;
+}
+
+.paging_num_ul li.prev,
+.paging_num_ul li.next {
+    padding: 0;
+}
+
+.paging_num_ul li:hover {
+    border: 1px solid #111;
+    color: #111;
+}
+
+.paging_num_ul li.active {
+    width: 40px;
+    height: 40px;
+    line-height: 40px;
+    text-align: center;
+    border: 1px solid #111;
+}
+
+/* paging_number */
