@@ -6,6 +6,7 @@ function Header(props) {
         <header>
             <Link to="/">홈</Link>
             <Link to="/Sub102">Sub102</Link>
+            <Link to="/Sub103">Sub103</Link>
         </header>
     );
 }

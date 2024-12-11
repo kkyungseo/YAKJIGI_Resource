@@ -5,6 +5,7 @@ import { BrowserRouter, Route, Routes } from 'react-router-dom';
 import Header from './components/Header';
 import Footer from './components/Footer';
 import Sub102 from './pages/Sub102/Sub102';
+import Sub103 from './pages/Sub103/Sub103';
 import Container from './pages/Main/Container';
 import './styles/common.css';
 import AOS from 'aos';
@@ -28,6 +29,7 @@ function App() {
             <Routes>
                <Route path='/' element={<Container />} />
                <Route path='/Sub102' element={<Sub102 />} />
+               <Route path='/Sub103' element={<Sub103 />} />
             </Routes>
             <Footer />
          </div>
